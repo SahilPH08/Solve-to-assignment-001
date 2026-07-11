@@ -79,3 +79,40 @@ a {
     border-radius: 4px;
     font-weight: bold;
 }
+
+/* Speakers */
+.speakers {
+    padding: 90px 0 120px;
+}
+.section-title {
+    margin-bottom: 55px;
+    font-size: 42px;
+    text-align: center;
+}
+
+.speaker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px;
+}
+.speaker-card {
+    box-shadow: 0 8px 24px black;
+}
+.speaker-info {
+    padding: 22px 25px 26px;
+}
+.speaker-track {
+    margin-bottom: 5px;
+    color: #2563eb;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.speaker-name {
+    margin-bottom: 5px;
+    font-size: 23px;
+}
+.speaker-job {
+    color: #667085;
+    font-size: 15px;
+}
