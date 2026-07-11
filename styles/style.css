@@ -45,3 +45,37 @@ a {
     font-weight: bold;
 }
 
+/* Hero */
+.hero {
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:  url('../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero-content {
+    color: #ffffff;
+    text-align: center;
+}
+.hero-content h1 {
+    margin-bottom: 24px;
+    font-size: 66px;
+
+}
+.hero-content p {
+    width: 70%;
+    margin: 0 auto 35px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-button {
+    padding: 13px 28px;
+    color: #ffffff;
+    background-color: #2563eb;
+    border-radius: 4px;
+    font-weight: bold;
+}
